@@ -7,6 +7,13 @@ WHU student building small, sharp tools across systems, AI agents, computer visi
 [![GitHub](https://img.shields.io/badge/GitHub-ecoreal-111827?style=for-the-badge&logo=github)](https://github.com/ecoreal)
 [![Wuhan University](https://img.shields.io/badge/Wuhan%20University-Student-0f766e?style=for-the-badge)](https://www.whu.edu.cn/)
 
+<div>
+  <a href="https://github.com/ecoreal/xv6-riscv"><img src="assets/featured/xv6-riscv.png" width="88" alt="xv6-riscv"></a>
+  <a href="https://github.com/ecoreal/cyberdog-motion-lab"><img src="assets/featured/cyberdog-motion-lab.png" width="88" alt="cyberdog-motion-lab"></a>
+  <a href="https://github.com/ecoreal/dyad-loop"><img src="assets/featured/dyad-loop.png" width="88" alt="dyad-loop"></a>
+  <a href="https://github.com/ecoreal/pytorch-portrait-segmentation"><img src="assets/featured/pytorch-portrait-segmentation.png" width="88" alt="pytorch-portrait-segmentation"></a>
+</div>
+
 </div>
 
 ## Focus
