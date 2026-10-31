@@ -1,57 +1,52 @@
 <div align="center">
 
-# Jerry Lee / ecoreal
+# Jerry Lee · 李佳徽
 
-WHU student building small, sharp tools across systems, AI agents, computer vision, and web experiments.
+**B.Eng. candidate in Artificial Intelligence, Wuhan University (2023–2027)**
 
-[![GitHub](https://img.shields.io/badge/GitHub-ecoreal-111827?style=for-the-badge&logo=github)](https://github.com/ecoreal)
-[![Wuhan University](https://img.shields.io/badge/Wuhan%20University-Student-0f766e?style=for-the-badge)](https://www.whu.edu.cn/)
+I build measurement tools — benchmarks that can tell a model which *did* the task
+from one that happened to guess right.
 
-<div>
-  <a href="https://github.com/ecoreal/xv6-riscv"><img src="assets/featured/xv6-riscv.png" width="88" alt="xv6-riscv"></a>
-  <a href="https://github.com/ecoreal/cyberdog-motion-lab"><img src="assets/featured/cyberdog-motion-lab.png" width="88" alt="cyberdog-motion-lab"></a>
-  <a href="https://github.com/ecoreal/dyad-loop"><img src="assets/featured/dyad-loop.png" width="88" alt="dyad-loop"></a>
-  <a href="https://github.com/ecoreal/pytorch-portrait-segmentation"><img src="assets/featured/pytorch-portrait-segmentation.png" width="88" alt="pytorch-portrait-segmentation"></a>
-</div>
+[jiahuili@whu.edu.cn](mailto:jiahuili@whu.edu.cn) · [Wuhan University](https://www.whu.edu.cn/) · Wuhan, China
 
 </div>
 
-## Focus
+## Research
 
-- Systems programming: xv6/RISC-V labs, C/C++, OS internals, digital design.
-- AI and agents: prompt transparency, memory workflows, speech and image generation experiments.
-- Computer vision: segmentation, pose estimation, style transfer, 3D Gaussian Splatting.
-- Practical archives: coursework, templates, scripts, and reproducible learning notes.
+**Benchmark validity for multimodal models.** I co-designed a VLM benchmark for
+instrument reading and built its data and evaluation pipeline: **1,821 images, 7
+subsets, 32 instrument types**, every value and box annotated by a human. Two
+results shaped how I work. Agent-generated ground truth inflates reading accuracy
+(**22.4% vs 14.5%**) and flattens prompt effects (+0.11 pp vs +4.12 pp); a
+same-model label-and-evaluate loop inflates it by **75%**. And the metric the
+project had planned to headline turned out to be an arithmetic identity — it
+equals exactly half the whole-image reading accuracy. What survived is `ec_rate`,
+the share of correct answers whose localization was wrong: **22.8% (50/219)**.
 
-## Featured Work
+**Self-evolving data engines.** A five-stage annotation engine for animal pose
+(YOLO-World → SAM2.1 → ViTPose++ → CoTracker3 → quad-triage). The design choice
+that mattered was making tracking *abstain* rather than propagate unreliable
+keypoints: Gold clips **56 → 71**, worst failure class **36 → 24**.
 
-| Area | Repositories |
+**Label quality in remote sensing.** Morphological filters for OSM-derived road
+labels. At an equal budget of 17,802 samples, morphology-based selection raised
+recall from **72.18% to 80.15%** over random sampling. Second author.
+
+## Selected work
+
+| Repository | What it is |
 | --- | --- |
-| Systems | [`xv6-riscv`](https://github.com/ecoreal/xv6-riscv), [`cpp-systems-lab`](https://github.com/ecoreal/cpp-systems-lab), [`whu-coad-experiments`](https://github.com/ecoreal/whu-coad-experiments) |
-| AI / Agents | [`dyad-loop`](https://github.com/ecoreal/dyad-loop), [`nora`](https://github.com/ecoreal/nora), [`claritas-system-prompts`](https://github.com/ecoreal/claritas-system-prompts) |
-| Vision / Graphics | [`pytorch-portrait-segmentation`](https://github.com/ecoreal/pytorch-portrait-segmentation), [`animal-pose-estimation`](https://github.com/ecoreal/animal-pose-estimation), [`styleid-image-lab`](https://github.com/ecoreal/styleid-image-lab), [`3dgs-memory-lab`](https://github.com/ecoreal/3dgs-memory-lab) |
-| Web / Tools | [`m2html`](https://github.com/ecoreal/m2html), [`cloud-mail`](https://github.com/ecoreal/cloud-mail), [`olympic-legends-explorer`](https://github.com/ecoreal/olympic-legends-explorer) |
-| Learning Archives | [`whu-term3-archive`](https://github.com/ecoreal/whu-term3-archive), [`software-coursework-lab`](https://github.com/ecoreal/software-coursework-lab), [`coursework-cloud-archive`](https://github.com/ecoreal/coursework-cloud-archive), [`cumcm-2025`](https://github.com/ecoreal/cumcm-2025) |
+| [`tape`](https://github.com/ecoreal/tape) | Time-travel debugger for AI agent sessions — reads the JSONL your agent already writes, zero dependencies |
+| [`agentic-risk-scan`](https://github.com/ecoreal/agentic-risk-scan) | Dependency-free scanner for agent workflows, MCP servers and instruction-file risks |
+| [`model-performance-test`](https://github.com/ecoreal/model-performance-test) | Frontend benchmark for LLMs: one prompt, one 100-point rubric, several models |
+| [`m2html`](https://github.com/ecoreal/m2html) | Markdown → HTML in Rust, GFM and syntax highlighting, with CLI and Python bindings |
+| [`xv6-riscv`](https://github.com/ecoreal/xv6-riscv) | xv6 / RISC-V labs — OS internals in C |
+| [`mogwai`](https://github.com/ecoreal/mogwai) | A terminal pet whose brain is a git repo; memory decays, forgetting is reversible |
 
-## Stack
+## Toolbox
 
-![Python](https://img.shields.io/badge/Python-1f2937?style=flat-square&logo=python)
-![C](https://img.shields.io/badge/C-1f2937?style=flat-square&logo=c)
-![C++](https://img.shields.io/badge/C++-1f2937?style=flat-square&logo=cplusplus)
-![Rust](https://img.shields.io/badge/Rust-1f2937?style=flat-square&logo=rust)
-![JavaScript](https://img.shields.io/badge/JavaScript-1f2937?style=flat-square&logo=javascript)
-![Vue](https://img.shields.io/badge/Vue-1f2937?style=flat-square&logo=vuedotjs)
-![PyTorch](https://img.shields.io/badge/PyTorch-1f2937?style=flat-square&logo=pytorch)
-![Linux](https://img.shields.io/badge/Linux-1f2937?style=flat-square&logo=linux)
-
-## Current Direction
-
-I am turning scattered experiments into cleaner, named repositories with useful READMEs, topics, and visual identity. The goal is a GitHub profile that works as both a learning record and a technical portfolio.
+`Python` · `PyTorch` · `C` / `C++` · `Rust` · `JavaScript` · `Linux` · `Slurm` · `LaTeX`
 
 ---
 
-<div align="center">
-
-Wuhan, Hubei, China
-
-</div>
+<sub>Research code lives in private repositories while the work is in progress — happy to walk through any of it on request.</sub>
