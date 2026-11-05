@@ -7,7 +7,7 @@
 I build measurement tools — benchmarks that can tell a model which *did* the task
 from one that happened to guess right.
 
-[jiahuili@whu.edu.cn](mailto:jiahuili@whu.edu.cn) · [Wuhan University](https://www.whu.edu.cn/) · Wuhan, China
+[jiahuili@whu.edu.cn](mailto:jiahuili@whu.edu.cn) · [ecoreal.github.io](https://ecoreal.github.io/) · Wuhan, China
 
 </div>
 
@@ -40,8 +40,13 @@ recall from **72.18% to 80.15%** over random sampling. Second author.
 | [`agentic-risk-scan`](https://github.com/ecoreal/agentic-risk-scan) | Dependency-free scanner for agent workflows, MCP servers and instruction-file risks |
 | [`model-performance-test`](https://github.com/ecoreal/model-performance-test) | Frontend benchmark for LLMs: one prompt, one 100-point rubric, several models |
 | [`m2html`](https://github.com/ecoreal/m2html) | Markdown → HTML in Rust, GFM and syntax highlighting, with CLI and Python bindings |
-| [`xv6-riscv`](https://github.com/ecoreal/xv6-riscv) | xv6 / RISC-V labs — OS internals in C |
 | [`mogwai`](https://github.com/ecoreal/mogwai) | A terminal pet whose brain is a git repo; memory decays, forgetting is reversible |
+| `nova` — [`vault-doctor`](https://github.com/ecoreal/vault-doctor) / [`apt-diff`](https://github.com/ecoreal/apt-diff) / [`pi-guard`](https://github.com/ecoreal/pi-guard) | RasPi/Debian ops toolkit: Obsidian vault health checks, dpkg & system-change audits, thermal/throttle watchdog |
+| [`duel`](https://github.com/ecoreal/duel) | Deterministic AI agent arena in the terminal — any executable can fight, every match is a replayable file |
+
+**Awards:** 🏆 First Prize (Central-South Region), 19th Chinese Collegiate Computing Competition (2026) — [`yifang-pavilion`](https://github.com/ecoreal/yifang-pavilion) · National Third Prize, Xiaomi Cup (2025) — [`cyberdog-motion-lab`](https://github.com/ecoreal/cyberdog-motion-lab)
+
+**Coursework:** [`xv6-riscv`](https://github.com/ecoreal/xv6-riscv) — xv6 / RISC-V labs, OS internals in C.
 
 ## Toolbox
 
