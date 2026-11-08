@@ -36,6 +36,7 @@ recall from **72.18% to 80.15%** over random sampling. Second author.
 
 | Repository | What it is |
 | --- | --- |
+| [`ipure`](https://github.com/ecoreal/ipure) | Local-first IP purity check — itemised scoring, real-traffic exit verification, duplicate exits, native/broadcast via RIR, DNSBL · [live demo report](https://ecoreal.github.io/ipure/demo-report.html) |
 | [`tape`](https://github.com/ecoreal/tape) | Time-travel debugger for AI agent sessions — reads the JSONL your agent already writes, zero dependencies |
 | [`agentic-risk-scan`](https://github.com/ecoreal/agentic-risk-scan) | Dependency-free scanner for agent workflows, MCP servers and instruction-file risks |
 | [`model-performance-test`](https://github.com/ecoreal/model-performance-test) | Frontend benchmark for LLMs: one prompt, one 100-point rubric, several models |
