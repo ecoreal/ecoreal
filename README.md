@@ -9,6 +9,16 @@ from one that happened to guess right.
 
 [jiahuili@whu.edu.cn](mailto:jiahuili@whu.edu.cn) · [ecoreal.github.io](https://ecoreal.github.io/) · Wuhan, China
 
+<a href="https://github.com/ecoreal/ipure"><img src="assets/featured/ipure.png" width="92" alt="ipure"></a>
+<a href="https://github.com/ecoreal/tape"><img src="assets/featured/tape.png" width="92" alt="tape"></a>
+<a href="https://github.com/ecoreal/duel"><img src="assets/featured/duel.png" width="92" alt="duel"></a>
+<a href="https://github.com/ecoreal/mogwai"><img src="assets/featured/mogwai.png" width="92" alt="mogwai"></a>
+<a href="https://github.com/ecoreal/synapse"><img src="assets/featured/synapse.png" width="92" alt="synapse"></a>
+<a href="https://github.com/ecoreal/apt-diff"><img src="assets/featured/apt-diff.png" width="92" alt="apt-diff"></a>
+
+<img src="https://github-readme-stats.vercel.app/api?username=ecoreal&show_icons=true&hide_border=true&bg_color=00000000&title_color=2dd4a7&icon_color=5ba1f0" width="46%" alt="stats">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ecoreal&layout=compact&hide_border=true&bg_color=00000000&title_color=2dd4a7" width="40%" alt="top langs">
+
 </div>
 
 ## Research
@@ -52,6 +62,11 @@ recall from **72.18% to 80.15%** over random sampling. Second author.
 ## Toolbox
 
 `Python` · `PyTorch` · `C` / `C++` · `Rust` · `JavaScript` · `Linux` · `Slurm` · `LaTeX`
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ecoreal/ecoreal/output/github-contribution-grid-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/ecoreal/ecoreal/output/github-contribution-grid-snake.svg" width="100%" alt="contribution snake">
+</picture>
 
 ---
 
