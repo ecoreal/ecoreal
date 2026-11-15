@@ -44,21 +44,46 @@ recall from **72.18% to 80.15%** over random sampling. Second author.
 
 ## Selected work
 
+**CLI tools** — one command, zero dependencies, nothing to install.
+
 | Repository | What it is |
 | --- | --- |
-| [`agentjanitor`](https://github.com/ecoreal/agentjanitor) | Local-first health check for every AI CLI on your machine — disk hogs, plaintext keys, secrets leaked into transcripts, duplicated MCP configs |
 | [`ipure`](https://github.com/ecoreal/ipure) | Local-first IP purity check — itemised scoring, real-traffic exit verification, duplicate exits, native/broadcast via RIR, DNSBL · [live demo report](https://ecoreal.github.io/ipure/demo-report.html) |
-| [`tape`](https://github.com/ecoreal/tape) | Time-travel debugger for AI agent sessions — reads the JSONL your agent already writes, zero dependencies |
-| [`agentic-risk-scan`](https://github.com/ecoreal/agentic-risk-scan) | Dependency-free scanner for agent workflows, MCP servers and instruction-file risks |
-| [`model-performance-test`](https://github.com/ecoreal/model-performance-test) | Frontend benchmark for LLMs: one prompt, one 100-point rubric, several models |
-| [`m2html`](https://github.com/ecoreal/m2html) | Markdown → HTML in Rust, GFM and syntax highlighting, with CLI and Python bindings |
-| [`mogwai`](https://github.com/ecoreal/mogwai) | A terminal pet whose brain is a git repo; memory decays, forgetting is reversible |
-| [`vault-doctor`](https://github.com/ecoreal/vault-doctor) / [`apt-diff`](https://github.com/ecoreal/apt-diff) / [`pi-guard`](https://github.com/ecoreal/pi-guard) | **nova** — Obsidian vault health checks, Debian system-change audits, Raspberry Pi thermal/throttle watchdog |
+| [`agentjanitor`](https://github.com/ecoreal/agentjanitor) | Local-first health check for every AI CLI on your machine — disk hogs, plaintext keys, secrets leaked into transcripts, duplicated MCP configs |
+| [`perm-dryrun`](https://github.com/ecoreal/perm-dryrun) | Which permission rule matches your command, from which settings file, allow/ask/deny — before you run it |
+| [`hooktestkit`](https://github.com/ecoreal/hooktestkit) | Replay test harness for Claude Code hooks — fixture payloads in, exit-code and JSON assertions out |
+| [`scriptpeek`](https://github.com/ecoreal/scriptpeek) | What an npm lockfile will run before you install it — lifecycle scripts, real command text, dependency paths |
+| [`nexthop`](https://github.com/ecoreal/nexthop) | Turns any Claude Code / Codex session into a `HANDOFF.md` the next agent picks up |
+| [`portafs`](https://github.com/ecoreal/portafs) | Cross-platform filename audit — case collisions, Windows reserved names, path length, NFC/NFD conflicts |
+| [`proxycheckup`](https://github.com/ecoreal/proxycheckup) | Static health check for proxy environment variables and config files — never opens a socket |
+
+**Agent runtime** — observing and steering the thing that acts.
+
+| Repository | What it is |
+| --- | --- |
+| [`tape`](https://github.com/ecoreal/tape) | Time-travel debugger for AI agent sessions — reads the JSONL your agent already writes |
 | [`duel`](https://github.com/ecoreal/duel) | Deterministic AI agent arena in the terminal — any executable can fight, every match is a replayable file |
+| [`mogwai`](https://github.com/ecoreal/mogwai) | A terminal pet whose brain is a git repo; memory decays, forgetting is reversible |
+
+**System & environment**
+
+| Repository | What it is |
+| --- | --- |
+| [`synapse`](https://github.com/ecoreal/synapse) | Connectivity monitoring, diagnosis and config repair for LLM relay endpoints — pure Python stdlib |
+| [`vault-doctor`](https://github.com/ecoreal/vault-doctor) / [`apt-diff`](https://github.com/ecoreal/apt-diff) / [`pi-guard`](https://github.com/ecoreal/pi-guard) | **nova** — Obsidian vault health checks, Debian system-change audits, Raspberry Pi thermal/throttle watchdog |
+
+**Measurement**
+
+| Repository | What it is |
+| --- | --- |
+| [`model-performance-test`](https://github.com/ecoreal/model-performance-test) | Frontend benchmark for LLMs: one prompt, one 100-point rubric, several models |
+| [`agentic-risk-scan`](https://github.com/ecoreal/agentic-risk-scan) | Dependency-free scanner for agent workflows, MCP servers and instruction-file risks |
+
+Also [`m2html`](https://github.com/ecoreal/m2html) — Markdown → HTML in Rust, GFM and syntax highlighting, with CLI and Python bindings.
 
 **Awards:** 🏆 First Prize (Central-South Region), 19th Chinese Collegiate Computing Competition (2026) — [`yifang-pavilion`](https://github.com/ecoreal/yifang-pavilion) · National Third Prize, Xiaomi Cup (2025) — [`cyberdog-motion-lab`](https://github.com/ecoreal/cyberdog-motion-lab)
 
-**Coursework:** [`xv6-riscv`](https://github.com/ecoreal/xv6-riscv) — xv6 / RISC-V labs, OS internals in C.
+**Coursework:** [`xv6-riscv`](https://github.com/ecoreal/xv6-riscv) — xv6 / RISC-V labs, OS internals in C. Older coursework archives ([`whu-term3-archive`](https://github.com/ecoreal/whu-term3-archive), [`software-coursework-lab`](https://github.com/ecoreal/software-coursework-lab), [`whu-coad-experiments`](https://github.com/ecoreal/whu-coad-experiments), [`cpp-systems-lab`](https://github.com/ecoreal/cpp-systems-lab)) stay public as a learning record.
 
 ## Toolbox
 
